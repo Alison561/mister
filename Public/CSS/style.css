@@ -1,0 +1,449 @@
+/* pre formatação */
+.green{
+    color: #00f700;
+}
+.flex-center{
+    display: flex;
+    justify-content: space-evenly !important; 
+    align-items: center;
+    flex-wrap: wrap;
+}
+.flex-aling-center{
+    display: flex;
+    align-items: center;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+}
+.flex-bet{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/* Home */
+#home{
+    min-height: 100vh;
+    background-position: center;
+    background-image: url('../Images/background/BACKGROUND.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black;
+}
+.logo{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+.logo img{
+    margin-top: 30px;
+    width: 200px;
+}
+.conteudo{
+    margin-top: 60px;
+    width: 100%;
+    max-height: calc(100% - 100px);
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    justify-content: center;
+}
+.desc{
+    margin-right: 30px;
+}
+#destaque{
+    font-size: 40px;
+    color: white;
+}
+.desc a{
+    background: #00f700;
+    padding: 10px 20px;
+    font-size: 25px;
+    border-radius: 50px;
+    font-weight: bolder;
+}
+.desc p{
+    margin-top: 25px;
+    color:white;
+    text-align: center;
+    font-size: 16px;
+}
+.video{
+    width: 560px;
+    height: 350px;
+    margin-left: 30px;
+    border: 5px solid #00f700;
+}
+@keyframes efeito{
+    0%{
+        bottom: 10px;
+    }
+    100%{
+        bottom: 0px;
+    }
+
+}
+.icone{
+    color: #00f700;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.icone i{
+    position: relative;
+    animation-name: efeito;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+
+/* sobre */
+#sobre{
+    background-image: url("../Images/background/BACKGROUND-TELA-2.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding: 40px 0;
+}
+.servicos{
+    background-color: black;
+    padding: 15px;
+    margin-bottom: 40px;
+}
+.servico{
+    display: flex;
+    align-items: center;
+    max-width: 300px;
+    color: white;
+}
+.servico h3{
+    color: #00f700;
+    margin-bottom: 5px;
+}
+.servico .img-serv{
+    width: 350px;
+}
+.servico .desc-serv{
+    padding: 5px;
+}
+.sobre{
+    width: 100%;
+    padding: 0 10px;
+    color: white;
+}
+.sobre .img-sobre{
+    max-width: 400px;
+}
+.sobre .desc-sobre {
+    max-width: 650px;
+}
+.sobre .desc-sobre p{
+    max-width: 650px;
+    text-align: justify;
+}
+.sobre .desc-sobre h2{
+    margin-bottom: 20px;
+}
+
+
+/* como funciona */
+#como-funciona{
+    background: #00f700;
+    padding: 20px 20px;
+}
+.desc-funciona{
+    max-width: 600px;
+}
+.desc-funciona p{
+    text-align: justify;
+    color: black !important;
+}
+.desc-funciona h2{
+    margin-bottom: 20px;
+}
+.desc-funciona h3 a{
+    font-weight: 100;
+    text-transform: none;
+    background: black;
+    color: white;
+    border-radius: 50px;
+    display: inline-block;
+    padding: 5px 15px;
+}
+.img-funciona{
+    max-width: 600px;
+    height: 300px;
+}
+
+
+/* entradas */
+#entradas{
+    width: 100%;
+    background-image: url('../Images/background/FUNDO-ENTRADAS.png');
+    background-position: center;
+    background-size: cover;
+    padding: 40px;
+    color: white;
+}
+#entradas img{
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 2%;
+    color: white;
+}
+#entradas h2.green{
+    letter-spacing: 5px;
+    font-weight: 100;
+}
+#entradas h3{
+    text-align: center;
+}
+#entradas .border{
+    width: 100%;
+    max-width: 400px;
+    margin-left: 10px;
+    border: 2px solid #00f700;
+}
+/* #entradas h2{
+    margin-bottom: 3px;
+} */
+/* assinates */
+#assinantes h2{
+    text-align: center;
+}
+.prints{
+    width: 100%;
+}
+.prints .img-print{
+    margin: 5px;
+    max-width: 300px;
+}
+
+/* garantia */
+#garantia{
+    background: black;
+    padding: 20px;
+    justify-content: center;
+    /* border-bottom: 10px solid #00f700; */
+}
+.desc-garantia{
+    margin-left: 20px;
+    color: white;
+    text-align: center;
+}
+.desc-garantia h2{
+    margin-bottom: 40px;
+}
+.desc-garantia p{
+    font-size: 18px;
+}
+.img-garantia{
+    margin-right: 20px;
+    max-width: 200px;
+}
+
+/* vip */
+#vip{
+    width: 100%;
+    background-image: url('../Images/background/FUNDO-TELA8.png');
+    background-position: center;
+    background-size: cover;
+    padding: 40px;
+}
+.desc-vip{
+    text-align: center;
+}
+.desc-vip h3{
+    color: white;
+}
+.text h3{
+    color: #00f700;
+}
+.text h3 a{
+    background: white;
+    padding: 3px 20px;
+    font-size: 16px;
+    border-radius: 30px;
+    font-weight: 900;
+}
+.img-vip{
+    max-width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+/* PERGUNTAS FREQUENTES */
+#pr{
+    background-color: #eee;
+    padding: 40px;
+}
+#pr h2 strong{
+    font-weight: 500;
+}
+.accor-space{
+    margin-bottom: 15px;
+}
+.accordion {
+    background-color: white;
+    cursor: pointer;
+    padding: 18px;
+    font-weight: 900;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-size: 16px;
+}
+.accordion i{
+    font-size: 20px; 
+    margin-right: 10px; 
+   
+ font-weight: 900;
+} 
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+.panel {
+    text-align: justify;
+    padding: 20px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+    color: black;
+}
+.panel p{
+    color: black !important;
+}
+#pr .a{
+    text-align: center;
+    background: #00f700;
+    font-size: 18px;
+    padding: 5px 20px;
+    font-weight: 600;
+    border-radius: 20px;
+}
+/* PERGUNTAS FREQUENTES */
+/* footer */
+footer{
+    background: black;
+    padding: 40px; 
+    display: flex;
+}
+footer .img{
+    width: 100%;
+    max-width: 200px;
+}
+footer .redes-sociais{
+    padding: 10px;
+    color: #00f700;
+}
+footer .redes-sociais h3{
+    margin-bottom: 0;
+}
+footer .redes-sociais .border{
+    width: 20%;
+    border: 3px solid #00f700;
+}
+footer .redes-sociais hr{
+    border: 1px solid #00f700;
+}
+footer .redes-sociais h3{
+    color: white;
+}
+footer .redes-sociais .i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .redes-sociais .i i{
+    font-size: 25px;
+    font-weight: bold;
+}
+footer .redes-sociais .i a{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    background: #00f700;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* footer */
+/* mobile */
+@media screen and (max-width: 1050px) {
+    .conteudo{
+        flex-direction: column-reverse;
+    }
+    .video, .desc, .img-sobre, .desc-sobre{
+        margin: 0;
+        margin-bottom: 30px;
+    }
+    .desc{
+        text-align: center;
+    }
+    .servico{
+        margin: 5px;
+    }
+    .img-vip{
+        max-height: 200px;
+    }
+}
+@media screen and (max-width: 610px) {
+    #home{
+        background-image: url("../Images/background/BACKGROUND-500px.png");
+        background-position: center;
+    }
+    .conteudo{
+        flex-direction: column-reverse;
+    }
+    .sobre{
+        background-position: right top;
+    }
+    .sobre .desc-sobre h2{
+        font-size: 20px;
+    }
+    .desc-funciona h2, #assinantes h2, .desc-garantia h2{
+        font-size: 25px;
+    }
+    .video, .desc{
+        width: 90%;
+    }
+    .servicos{
+        padding: 10px;
+    }
+    .servico{
+        margin: 20px 0;
+    }
+    #destaque{
+        font-size: 30px;
+        white-space: pre-wrap;
+    }
+    .desc a, .desc-funciona h3 a{
+        font-size: 18px;
+    }
+    .desc p{
+        font-size: 12px;
+    }
+    .desc-garantia{
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 830px) {
+    .desc-vip{
+        text-align: center;
+    }
+    .desc-vip h2, .desc-vip p{
+        text-align: center;
+    }
+    .desc-vip h3{
+        padding: 10px 25px;
+    }
+    .ass-vip a{
+        font-size: 20px;
+    }
+    footer .redes-sociais{
+        width: 100%;
+    }
+}
